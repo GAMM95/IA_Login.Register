@@ -1,0 +1,14 @@
+---En el caso no quiera abrir el spyder en anaconda ---
+
+pip uninstall pyqt5
+pip install spyder
+
+------- Librerias ----
+pip install matplotlib
+
+conda install -c conda-forge mtcnn
+
+pip install --upgrade tensorflow
+
+pip install tk
+

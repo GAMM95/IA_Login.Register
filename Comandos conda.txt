@@ -1,0 +1,6 @@
+
+Crear environment: conda create --name "registroLogin"
+utilizar nuevo entorno: conda activate "registroLogin"
+ver la version de python: python --V / python --version
+mostrar lista de entornos: conda env list
+importar openCV: pip install opencv-contrib-python
