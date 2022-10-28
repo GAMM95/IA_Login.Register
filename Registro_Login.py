@@ -5,14 +5,14 @@ Created on Mon Oct 24 23:23:49 2022
 @author: Acer
 """
 #Importamos librerias
-from tkinter import *
-import os
-import cv2
-from matplotlib import pyplot
-from mtcnn.mtcnn import MTCNN
+from tkinter import * # desarrollo de interfaces graficas
+import os # para crear un arvhico dentro de una carpeta
+import cv2 # software de aprendizaje automatico par el login 
+from matplotlib import pyplot #graficas de puntos focales en el registro del rostro
+from mtcnn.mtcnn import MTCNN # detecta puntos claves del rostro
 import numpy as np
 
-# Crearemos una funcion que se encargara de registrar el usuario
+# Crearemos una funcion que se encargara de registrar el usuario de modo convencional
 def registrar_usuario():
     usuario_info = usuario.get() # Obetnemos la informacion alamcenada en usuario
     contra_info = contra.get() # Obtenemos la informacion almacenada en contra
